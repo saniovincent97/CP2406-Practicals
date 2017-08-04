@@ -1,5 +1,3 @@
-package Prac01;
-
 import javax.swing.JOptionPane;
 public class BurmaShave {
     public static void main(String[] args){

@@ -1,5 +1,3 @@
-package Prac01;
-
 public class FavouriteSong {
     public static void main(String[] args){
         System.out.println("I'll be the roundabout\nThe words will make you out 'n' out\nI spend the day your way\n" +
