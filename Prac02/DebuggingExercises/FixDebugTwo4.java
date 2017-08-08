@@ -7,8 +7,7 @@ public class FixDebugTwo4
       double cost;
       final double tax = 0.06;
       costString = JOptionPane.showInputDialog(null, "Enter price of item you are buying" +
-                      "\nPurchases", // unsure if achieving intended effect
-         JOptionPane.INFORMATION_MESSAGE);
+                      "\nPurchases"); // unsure if achieving intended effect
       cost = Double.parseDouble(costString);
       JOptionPane.showMessageDialog(null,"With " + tax * 100 +
          "% tax,  purchase  is $" + (cost - cost * tax));
