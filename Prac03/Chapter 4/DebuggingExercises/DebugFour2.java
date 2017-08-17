@@ -3,11 +3,11 @@ public class DebugFour2
 {
    public static void main(String args[])
    {
-      int radius = 12.6;
-      System.out.println("Circle statistics");
+      double radius = 12.6;
       double area = java.lang.Math.PI * radius * radius;
+      double diameter = 2 * 2 ; //Unsure how to calculate diameter
+      System.out.println("Circle statistics");
       System.out.println("area is " + area);
-      double diameter = 2 * diameter;
-      System.out.println("diameter is " + diameter)
+      System.out.println("diameter is " + diameter);
    }
 }
