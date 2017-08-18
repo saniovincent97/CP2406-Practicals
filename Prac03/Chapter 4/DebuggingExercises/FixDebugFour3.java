@@ -1,7 +1,7 @@
 package DebuggingExercises;
 
 // This class uses a FixDebugBox class to instantiate two Box objects
-public class DebugFour3 {
+public class FixDebugFour3 {
    public static void main(String args[]) {
       int width = 12,
               length = 10,
